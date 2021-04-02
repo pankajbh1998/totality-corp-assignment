@@ -4,11 +4,11 @@ Steps to run the application
   1. docker-compose --build
   2. docker-compose up
   
-Port = 8001
+Port Address = 8001
 
 The End Points are:
-  1. :8080/user/1             // for one user
-  2. :8080/users/[1,2,3]      // for more than one users 
+  1. :8001/user/1             // for single user
+  2. :8001/users/[1,2,3]      // for multiple users 
 
 
 The application consists of 3 layred architecture.
