@@ -1,4 +1,8 @@
-# totality-corp-assignment
+# Totality-Corp-Assignment
+
+
+In This assignment the user details are fetched on the basis of user ids.
+
 
 Steps to run the application
   1. docker-compose --build
@@ -12,6 +16,10 @@ The End Points are:
 
 
 The application consists of 3 layred architecture.
+  1. Handler handles the http requests and communicates with service.
+  2. Service handles the business layer tasks and communicates wih store and handler.
+  3. Store handles the tasks of storing the data.
+
 
 Tests are written for three layers with 90.6% test coverage
 
