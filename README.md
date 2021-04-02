@@ -1,8 +1,9 @@
 # totality-corp-assignment
 
-steps to run the application
+Steps to run the application
   1. docker-compose --build
   2. docker-compose up
+
 
 The application consists of 3 layred architecture.
 
